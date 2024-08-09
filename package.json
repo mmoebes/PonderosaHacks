@@ -1,8 +1,8 @@
 {
-  "name": "@hackpenn/site",
-  "description": "Pennsylvania’s premiere high school hackathon is back. Hack Pennsylvania comes to State College, PA on January 19, 2018.",
+  "name": "@ponderosahacks/site",
+  "description": "Ponderosa Hacks - First Flagstaff, AZ High School Hackathon",
   "version": "0.0.1",
-  "author": "Lachlan Campbell <lachlan@hackpenn.com>",
+  "author": "Maleea <maleea.grace@gmail.com>",
   "license": "MIT",
   "private": true,
   "scripts": {
