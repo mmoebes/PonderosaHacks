@@ -66,7 +66,7 @@ export default () => (
           >
             Flagstaff, AZ
               </A>
-          —nestled in the ponderosa filled forests of Northern Arizona.
+          —nestled in the ponderosa-filled forests of Northern Arizona.
         </Heading.h2>
       </Container>
     </Box>
@@ -99,7 +99,7 @@ export default () => (
           </LinkOut>
         </GridItem>
         <Map />
-        <PanoBox href="/venue.jpg" style={{ minHeight: '16rem' }} />
+        <PanoBox href="/image.png" style={{ minHeight: '16rem' }} />
         <GridItem>
           <Module
             lg
