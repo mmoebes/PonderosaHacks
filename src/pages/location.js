@@ -60,13 +60,13 @@ export default () => (
         >
           Welcome to{' '}
           <A
-            href="https://en.wikipedia.org/wiki/State_College,_Pennsylvania"
+            href="https://enrollbasis.com/flagstaff/"
             color="inherit"
             underline
           >
-            State College, PA
-          </A>
-          —nestled in the forests of central Pennsylvania.
+            Flagstaff, AZ
+              </A>
+          —nestled in the ponderosa filled forests of Northern Arizona.
         </Heading.h2>
       </Container>
     </Box>
@@ -74,7 +74,7 @@ export default () => (
       <ShortGrid width={1} px={3} id="details" py={[4, 5]}>
         <GridItem>
           <Headline fontSize={[4, 5]} color={theme.colors.primaryDark}>
-            Good Shepherd Catholic&nbsp;Church
+            BASIS Flagstaff High School
           </Headline>
           <Text
             className="sans"
@@ -82,17 +82,17 @@ export default () => (
             color={theme.colors.steel}
             style={{ lineHeight: '1.375' }}
           >
-            867 Grays Woods Blvd
+            1700 N. Gemini Dr.
             <br />
-            Port Matilda, PA 16870
+            Flagstaff, AZ 86001
           </Text>
           <Text fontSize={2} mt={1} color={theme.colors.slate}>
-            (Parish Hall)
+            (Gymnasium)
           </Text>
           <LinkOut
             fontSize={2}
             color="primary"
-            href="https://goo.gl/maps/e1zaGxas6442"
+            href="https://maps.app.goo.gl/XEVLd1442K1waJq6A"
             target="_blank"
           >
             View on Google Maps
@@ -106,7 +106,7 @@ export default () => (
             icon="checkmark"
             name="Parking"
             color={theme.colors.slate}
-            body="Free parking is provided for the duration of the event, directly outside the venue. Park in the back parking lot and enter the building near recycling."
+            body="Free parking is provided for the duration of the event, directly in front of the venue. Follow the signs and enter the building through the side door by the front office."
           />
         </GridItem>
         <GridItem>
@@ -116,9 +116,10 @@ export default () => (
             name="Safety"
             iconColor={theme.colors.info}
             color={theme.colors.slate}
-            body="Safety is our highest priority for the event. We’ll have a dozen adults (with background checks) at the event for continuous supervision of attendees."
+            body="Safety is our highest priority for the event. We’ll have over a dozen adults and high school volunteers at the event for continuous supervision of attendees."
           />
         </GridItem>
+/*}
         <GridItem>
           <Module
             lg
@@ -153,6 +154,7 @@ export default () => (
             body="Attendees may leave early with parental consent (or if 18+). You can work on your project outside of the event as long as it’s submitted in-person at the deadline."
           />
         </GridItem>
+              */}
       </ShortGrid>
     </Box.section>
     <Footer />
