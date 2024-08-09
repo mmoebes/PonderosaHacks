@@ -152,11 +152,10 @@ export default () => (
           <Bannerline />
           <Headline color="primaryDark">Welcome to the “hackathon.”</Headline>
           <Lead my={3} maxWidth={48}>
-            Hack Pennsylvania is a 24-hour event where 150 programmers, artists,
-            designers, & other high schoolers from across the Northeast will
-            come together to build apps & games. We’ll provide workshops,
-            mentorship, free meals & drinks, & places to sleep. The next
-            morning, judges will pick the best projects to demo and win prizes.
+            Ponderosa Hacks is an 11-hour event where programmers, artists,
+            designers, & other high schoolers will
+            come together to build apps, games, and more. We’ll provide workshops,
+            mentorship, free meals & drinks, & a gest speaker. Judges will pick the best projects and win prizes.
           </Lead>
         </Container>
         <Modules>
