@@ -119,7 +119,7 @@ export default () => (
           style={{ fontFamily: theme.mono }}
           mt={3}
         >
-          High schoolers: learn to code with 24&nbsp;hours of fun, free food, &
+          High schoolers: learn to code with 11&nbsp;hours of fun, free food, &
           prizes.
         </Heading.h1>
         <Flex align="center" my={4}>
@@ -168,7 +168,7 @@ export default () => (
           <Module
             icon="emoji"
             name="Endless fun"
-            body="It goes way beyond coding. Meet new friends, come to the 2am dance party, win prizes."
+            body="It goes way beyond coding. Meet new friends, join the boat-building contest, win prizes."
           />
           <Module
             icon="rep"
@@ -177,8 +177,8 @@ export default () => (
           />
           <Module
             icon="bag"
-            name="You woodn’t believe the prizes"
-            body="Pine over the AirPods, Google Home, Raspberry Pi, speakers, batteries, software subscriptions, & much more."
+            name="You won’t believe the prizes"
+            body="Pine over the AirPods, Google Home, Raspberry Pi, speakers, fire stick, software subscriptions, & much more."
           />
         </Modules>
         <Grid mt={[4, 5]} color="white">
@@ -187,13 +187,11 @@ export default () => (
               Sprucing up PA
             </Heading.h3>
             <Text fontSize={3} my={2}>
-              Last spring, we ran central PA’s first community-organized HS
-              hackathon. This year, the event grows bigger + better—a tree-umph,
-              we might say.
-            </Text>
-            <LinkOut href="https://hackhappyvalley.com/recap">
-              See what happened at the last event
-            </LinkOut>
+              This is Flagstaff's first hackathon, and we want you to be apart of it! :)
+           // </Text>
+           // <LinkOut href="https://hackhappyvalley.com/recap">
+           //   See what happened at the last event
+           // </LinkOut>
           </Box>
           <HiddenPhoto
             xs
@@ -212,7 +210,7 @@ export default () => (
             <Text f={3} mt={2}>
               Hold up! No, we’re not “hacking” servers or databases. The word is
               being constructively re-defined as building things—apps, games,
-              websites, etc. At Hack Pennsylvania, it’s all safe, supervised, &
+              websites, etc. At Ponderosa Hacks, it’s all safe, supervised, &
               entirely educational.
             </Text>
           </Box>
@@ -235,7 +233,7 @@ export default () => (
           />
           <Question
             name="Who can participate?"
-            body="Any current student grades 8–12. If you’re under/over that age, send us a chat (in the corner) & we’ll see what we can do."
+            body="Any current student grades 8–12. If you’re under that age, send us a chat (in the corner) & we’ll see what we can do."
           />
           <Question
             name="What if I’m new to coding?"
@@ -255,19 +253,17 @@ export default () => (
           />
           <Question
             name="What should I bring?"
-            body="Student ID, computer, chargers, anything for your hack (hardware?), toiletries, & a sleeping bag (maybe). For a few dozen hackers we have $30 travel reimbursements (bring receipts)."
+            body="Student ID, computer, chargers, anything for your hack (hardware?)."
           />
           <Question
             name="Who runs this? Is it supervised?"
             body={
               <>
-                We’re independently-organized by high schoolers, sponsored via
-                an intl. non-profit called{' '}
+                A group of high school students from highschool around Flagstaff, sponsored via an intl. non-profit called{' '}
                 <A href="https://hackclub.com" color={theme.colors.accent}>
                   Hack Club
                 </A>
-                . The event is fully supervised by over a dozen adults (with
-                background checks).
+                . The event is fully supervised by staff at BASIS Flagstaff and volunteer mentors.
               </>
             }
           />
@@ -285,7 +281,7 @@ export default () => (
               name="Schedule"
               lg
               color={theme.colors.slate}
-              body="Saturday 12pm–Sunday 12pm, with a lot in between. Doors open 11am next weekend, hacking starts at 12:30pm. Sleep can wait :)"
+              body="Saturday 8 a.m. - 7 p.m., with a lot in between. Doors open at 7:30 am, and the opening ceremony starts at 8 am."
             >
               <LinkOut.span
                 to="/schedule"
@@ -303,11 +299,11 @@ export default () => (
               iconColor={theme.colors.info}
               body={
                 <>
-                  <Text.span bold>Good Shepherd Catholic Church</Text.span>
+                  <Text.span bold>BASIS Flagstaff</Text.span>
                   <br />
-                  867 Grays Woods Blvd
+                  1700 N. Gemini Dr.
                   <br />
-                  Port Matilda, PA 16870
+                  Flagstaff, AZ 86001
                 </>
               }
             >
@@ -333,8 +329,7 @@ export default () => (
                 <>
                   Every attendee gets{' '}
                   <A href="https://repl.it/?ref=hackpenn">repl.it</A>
-                  ’s Hacker plan. We welcome hardware, so we’re also providing
-                  Particle Photons for projects. Of&nbsp;course, we’ll also have
+                  ’s Hacker plan. We’ll also have food, snacks,
                   T-shirts, stickers, prizes, & sponsor swag.
                 </>
               }
